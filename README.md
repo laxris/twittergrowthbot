@@ -8,13 +8,13 @@ I hold no liability for what you do with this script or what happens to you by u
 
 ##Setup
 
-Setup a file of keywords to favorite, a list of bad words to exclude (so no offensive tweets get favorited) and set your own name on the list of users to abvoid. Make sure your the database file is initialized, e.g. by using the sqlite3 tool:
+Set up a file of keywords to favourite, a list of bad words to exclude (so no offensive tweets get favourited) and set your own name on the list of users to avoid. Make sure your the database file is initialized, e.g. by using the sqlite3 tool:
 
-sqlite3 filename.db
-create table tweethistory(X integer primary key autoincrement, timestamp int, tweetid text, userid text);
+    sqlite3 filename.db
+    create table tweethistory(X integer primary key autoincrement, timestamp int, tweetid text, userid text);
 .exit
 
-Enter your oauth-date into the corresponding fields. If you don't have app access yet, follow these instructions to create your own app:
+Enter your oauth-data into the corresponding fields. If you don't have app access yet, follow these instructions to create your own app:
 
 Go to https://dev.twitter.com/apps
 
